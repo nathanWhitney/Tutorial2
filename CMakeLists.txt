@@ -57,6 +57,7 @@ function(do_test target arg result)
 endfunction()
 
 # do a bunch of result based tests
+do_test(Tutorial 4096 "4096 is 64")
 do_test(Tutorial 4 "4 is 2")
 do_test(Tutorial 9 "9 is 3")
 do_test(Tutorial 5 "5 is 2.236")
